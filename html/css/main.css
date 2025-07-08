@@ -1168,11 +1168,13 @@ a {
 .album-thumb {
   margin-bottom: 10px;
   overflow: hidden;
+  height: 250px; /* Altura fija para todas las miniaturas */
 }
 .album-thumb img {
   width: 100%;
   height: 100%;
   display: block;
+  object-fit: cover; /* Asegura que la imagen cubra el área manteniendo su proporción */
   transition: transform 1s ease;
 }
 
