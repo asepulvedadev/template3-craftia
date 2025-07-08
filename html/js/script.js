@@ -109,6 +109,7 @@ $(document).ready(function() {
 	  });
 	// Contact END
 
+	$(window).on('load', function() {
 	// Gallery Single page START
 	$('.grid-single .grid-item img').parazoom({
 		customCursorIcon: 'images/magnify.svg',
@@ -174,6 +175,7 @@ $(document).ready(function() {
 		albumMasonry();
 	});
 	// Album page END
+});
 
 
 	// Settings START
